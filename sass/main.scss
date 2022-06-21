@@ -1,0 +1,83 @@
+$customcolor: #fabe3c;
+$light: $customcolor;
+$col1: #f5f7ff;
+
+@import "../bootstrap-5.2.0-beta1/scss/bootstrap.scss";
+
+.main_banner {
+    min-height: 500px;
+   width: 100%;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+}
+.navbar {
+    width: 100%;
+}
+.banner_text {
+    min-height: 150px;
+    background-color: transparentize($color: #fff, $amount: 0.8)
+}
+.btn-light {
+    color: #ffffff;
+}
+.mpp {
+    min-height: 110px;
+}
+.carousel-item {
+    max-height: 400px;
+}
+.mmp_inside {
+background-color: $col1;
+}
+.ftg_1 {
+    min-height: 400px;  
+    background-image: url(../img/food1.jpg);
+    background-size: cover; 
+    color: #fff;
+}
+.ftg_2 {
+    background-image: url(../img/food2.jpg);
+}
+a {
+    text-decoration: none;
+}
+.main {
+    min-height: 300px;
+}
+.cwv {
+    background-color: $col1;
+}
+.thai_banner {
+    min-height: 500px;
+    width: 100%;
+    background-image: url(../img/thai_banner.jpeg);
+    background-size: cover;
+    background-position: bottom;
+}
+.banner_thai {
+    background-color: transparentize($color: #fff, $amount: 0.8);
+    max-height: 70px;
+}
+.nav_left {
+    line-height: 40px;
+    position: sticky;
+    top: 0px;
+}
+.nav_left a {
+    color: #000;
+}
+.comm_block {
+    border: 1px solid black;
+    width: 100%;
+    padding: 15px;
+}
+.useravatar {
+border-radius: 50%;
+max-width: 90px;
+}
+li {
+    list-style: none;
+}
+footer {
+    background-color: $col1;
+}
